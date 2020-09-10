@@ -1,0 +1,5 @@
+- hosts: localhost
+  gather_facts: false
+  roles:
+    - role: devroles.system.molecule_podman_ci
+      molecule_podman_ci_state: absent
