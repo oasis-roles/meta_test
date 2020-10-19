@@ -28,6 +28,7 @@ provisioner:
     defaults:
       stdout_callback: yaml
       force_color: true
+      local_tmp: /tmp/ansible
 verifier:
   name: testinfra
   options:
