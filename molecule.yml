@@ -14,12 +14,6 @@ provisioner:
     prepare: ../shared/prepare.yml
     converge: ../shared/playbook.yml
     cleanup: ../shared/cleanup.yml
-    docker:
-      create: ../../../../tests/create-docker.yml
-      destroy: ../../../../tests/destroy-docker.yml
-    podman:
-      create: ../../../../tests/create-podman.yml
-      destroy: ../../../../tests/destroy-podman.yml
     openstack:
       cleanup: ../../../../tests/cleanup-openstack.yml
       create: ../../../../tests/create-openstack.yml
