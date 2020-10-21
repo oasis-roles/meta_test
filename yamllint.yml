@@ -11,4 +11,5 @@ rules:
     require-starting-space: false
 
 ignore: |
+  .tox
   samples/
