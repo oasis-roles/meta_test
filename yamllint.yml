@@ -1,8 +1,5 @@
 extends: default
 
-ignore: |
-  .tox
-
 rules:
   line-length:
     max: 120
@@ -14,4 +11,5 @@ rules:
     require-starting-space: false
 
 ignore: |
+  .tox
   samples/

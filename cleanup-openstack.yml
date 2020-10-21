@@ -4,4 +4,4 @@
   roles:
     - name: oasis_roles.system.rhsm
       rhsm_unregister: true
-      when: (ansible_distribution | default('')) == 'RedHat'
+      when: (ansible_facts.distribution | default('')) == 'RedHat'
