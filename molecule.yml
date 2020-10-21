@@ -22,7 +22,7 @@ provisioner:
     defaults:
       stdout_callback: yaml
       force_color: true
-      remote_tmp: /tmp/ansible
+      remote_tmp: /tmp/${USER}/ansible
 verifier:
   name: testinfra
   options:
