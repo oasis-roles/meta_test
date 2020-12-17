@@ -5,3 +5,6 @@
 # Python object files
 *.pyc
 *.pyo
+
+# specific filesystem things
+@eaDir
