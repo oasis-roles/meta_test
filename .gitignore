@@ -8,3 +8,6 @@
 
 # specific filesystem things
 @eaDir
+
+# install place for collections, incorrectly
+.cache
