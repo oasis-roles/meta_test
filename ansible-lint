@@ -1,3 +1,7 @@
 skip_list:
   - "204"
   - yaml
+  - no-handler
+exclude_paths:
+  - "**/molecule/**"
+use_default_rules: true
