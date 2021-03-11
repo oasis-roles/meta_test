@@ -3,11 +3,6 @@ dependency:
   options:
     role-file: ../../requirements.yml  # relative to the role dir
     requirements-file: ../../requirements.yml
-lint: |
-  set -e
-  yamllint -c ../../tests/yamllint.yml  .  # relative to role dir
-  ansible-lint -R -r ../../tests/ansible_lint_rules -c ../../tests/ansible-lint .
-  find . -name '*.py' -print0 | xargs -l -0 flake8
 provisioner:
   name: ansible
   playbooks:  # These paths are relative to scenario dir

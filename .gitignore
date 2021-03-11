@@ -5,3 +5,9 @@
 # Python object files
 *.pyc
 *.pyo
+
+# specific filesystem things
+@eaDir
+
+# install place for collections, incorrectly
+.cache
