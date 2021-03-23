@@ -1,3 +1,5 @@
+exclude_paths:
+  - ../plugins/ceph-ansible/  # Relative to this file
 skip_list:
   - "204"
   - yaml
