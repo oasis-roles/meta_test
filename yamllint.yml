@@ -14,4 +14,4 @@ ignore: |
   .tox
   samples/
   .cache
-  plugins/ceph-ansible
+  plugins/ceph_ansible
